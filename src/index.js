@@ -20,7 +20,7 @@ app.use(morgan('dev'))
 app.use(homePage)
 
 // Routes Public
-app.use('public', express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'public')))
 
 app.use((req, res) => {
     res.status(404).send('Not found')
