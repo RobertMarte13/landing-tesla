@@ -5,7 +5,6 @@ require('ejs')
 
 const homePage = require('./routes/home.js')
 
-
 const app = express()
 
 // setting
@@ -28,6 +27,6 @@ app.use((req, res) => {
 })
 
 
-// app.listen(app.get('port'), () => {
-//     console.log(`Servidor rodando na porta ${app.get('port')}`)
-// })
+app.listen(app.get('port'), () => {
+    console.log(`Servidor rodando na porta ${app.get('port')}`)
+})
