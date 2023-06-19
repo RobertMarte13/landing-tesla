@@ -1,16 +1,24 @@
-<%- include('./components/head') %>
+<%- include('./components/head') %> 
 
-<main class="main">
+<%- include('./components/header/header.ejs') %>
 
-  <%- include('./components/header/header.ejs') %>
-
-  <main class="content-main">
+<main class="content-main">
+  <div class="content-section">
     <%- include('./components/sections/section1.ejs') %>
-    <!-- <section class="section col-2"></section>
-    <section class="section col-3"></section>
-    <section class="section col-4"></section> -->
-  </main>
-  <footer></footer>
+  </div>
+  <div class="content-section">
+    <%- include('./components/sections/section2.ejs') %>
+  </div>
+  <div class="content-section">
+    <%- include('./components/sections/section3.ejs') %>
+  </div>
+  <div class="content-section">
+    <%- include('./components/sections/section4.ejs') %>
+  </div>
+  <div class="content-section">
+    <%- include('./components/sections/section5.ejs') %>
+  </div>
+  <%- include('./components/footer/footer.ejs') %>
 </main>
 
 <%- include('./components/footer') %>

@@ -1,0 +1,44 @@
+.header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.box-header {
+  text-align: center;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-center {
+  transform: translateX(50px);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+ul .links a {
+  transition: all 0.5s ease-in-out;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo-tesla {
+  z-index: 1000;
+  width: 120px;
+}

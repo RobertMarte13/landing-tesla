@@ -1,0 +1,12 @@
+.content-a {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.content-a a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 12px;
+  color: #242424;
+}
