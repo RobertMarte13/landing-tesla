@@ -2,11 +2,11 @@ const { Router } = require('express')
 
 const routes = Router()
 
-routes.get('https://landing-page-de-tesla.netlify.app/', (req, res) => {
+routes.get('/', (req, res) => {
     res.render('index')
 })
 
-routes.get('https://landing-page-de-tesla.netlify.app/home', (req, res) => {
+routes.get('/home', (req, res) => {
     res.render('index')
 })
 
